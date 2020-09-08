@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Practico 1</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script type="text/javascript" src="js/myjs.js"></script>
+</head>
+
+<body class="">
+  <div class="head">
+    <img class="banner" src="resource/banner.jpg" alt="Girl in a jacket">
+  </div>
+  <div class="menu fixed flex">
+    <div class="titulo">
+      <h1>QUE ES QUE</h1>
+    </div>
+    <div>
+      <nav>
+        <a href="index.html">Home</a> |
+        <a href="page2.html">HTML</a> |
+        <a href="page3.html">CSS</a> |
+        <a href="js.html">JavaScript</a>
+      </nav>
+    </div>
+  </div>
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-lg-4">
+        <div>
+          <img class="img" src="resource/html.jpg">
+        </div>
+        <div class="text">
+         <h2> <a href="page2.html">HTML QUE ES?</a> </h2> 
+          <p> HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcas de hipertexto’), hace...</p>
+        </div>
+
+      </div>
+      <div class="col-lg-4">
+        <div>
+          <img class="img" src="resource/css.jpg">
+        </div>
+        <div class="text">
+          <h2> <a href="page3.html">CSS QUE ES?</a> </h2> 
+          <p>CSS (siglas en inglés de Cascading Style Sheets), en español «Hojas de estilo en cascada», es... </p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div>
+          <img class="img-thumbnail"  src="resource/js.png">
+        </div>
+        <div class="text">
+          <h2> <a href="js.html">JavaScript QUE ES?</a> </h2> 
+          <p> JavaScript (abreviado comúnmente JS) es un lenguaje de programación interpretado, dialecto del...</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-12">
+    <h2 class="text-center">Jueguemos un rato</h2>
+  </div>
+  <div class="col-lg-12">
+    <form>
+      <label >Pregunta</label><br>
+      <label >HTML ES</label><br>
+      <label >a)Un lenguaje</label><br>
+      <label >b)lenguaje de marcas de hipertexto</label><br>
+      <label >Respuesta</label><br>
+      <input type="text" id="respuesta" name="fname">
+      <label >Pista 1</label>
+      <input type="text" id="p1" readonly name="fname">
+      <label >Pista 2</label>
+      <input type="text" id="p2" readonly  name="fname">
+      <button id="button" onclick="myFunction()" type="button" >Responder</button>
+      <input type="text" id="r" readonly  name="fname"><br>
+    </form>
+  </div>
+</body>
+<footer class="footer">
+  <div class="row">
+    <div class="col-lg-4">
+
+    </div>
+    <div class="col-lg-4">
+
+    </div>
+    <div class="col-lg-4">
+      <form>
+        <label >Nombre:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label >Apellido:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label >Mensaje:</label><br>
+        <textarea type="text" id="lname" name="lname"></textarea><br>
+        <button type="submit" >Enviar</button>
+      </form>
+    </div>
+  </div>
+</footer>
+</html>
